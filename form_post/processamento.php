@@ -13,5 +13,7 @@ if (isset($_GET["nome"])) {
 }
 ?>
 
-<h1>O seu nome é <?= $nome ?></h1> <br>
-<p>Você tem <?= $idade ?> anos</p>
+<body>
+    <h1>O seu nome é <?= $nome ?></h1> <br>
+    <p>Você tem <?= $idade ?> anos</p>
+</body>
